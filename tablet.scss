@@ -1,0 +1,71 @@
+@media (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 393px);
+        padding-right: calc(50% - 393px);
+    }
+
+
+
+    .for {
+        width: 780px;
+
+        &__item {
+            height: 268px;
+        }
+    }
+
+    .allimages {
+        column-gap: 29px;
+        row-gap: 39px;
+    }
+
+
+    .allimages__link {
+        display: flex;
+        gap: 29px;
+    }
+
+    .allcata {
+        display: flex;
+        gap: 29px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .filtering-form {
+        right: -180px;
+    }
+
+    .cart {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+    .cart-knopka2 {
+        color: white;
+        background-color: black;
+    }
+
+
+    .footer__logo {
+        display: none;
+    }
+
+    .footer-content {
+        gap: 179px;
+    }
+
+    .obertka {
+        display: flex;
+        gap: 12px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-align: left;
+        justify-content: space-between;
+        align-items: flex;
+        padding-left: 0px;
+    }
+
+}

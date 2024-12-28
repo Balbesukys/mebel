@@ -1,0 +1,267 @@
+@media (max-width: 765px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .kataint {
+        width: 375px;
+    }
+
+    .interier {
+        width: 375px;
+    }
+
+    .header {
+        border-bottom: none;
+        padding-top: 49px;
+        width: 343px;
+    }
+
+    .for-box {
+        width: 355px;
+    }
+
+    .for {
+        width: 355px;
+
+        &__item {
+            width: 343px;
+        }
+    }
+
+    .header__input {
+        display: none;
+    }
+
+    .header__mob {
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .header__link-menu {
+        display: none;
+    }
+
+    .header__img {
+        width: 99px;
+    }
+
+    .allcata {
+        width: 343px;
+    }
+
+    .allimages__link {
+        width: 343px;
+    }
+
+    .shapkakata {
+        height: 400px;
+        font-size: 48px;
+        line-height: 59px;
+        text-align: center;
+        width: 350px;
+    }
+
+    .filter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filtering-form {
+        right: 10px;
+        position: absolute;
+        left: -5px;
+        width: auto;
+        align-items: normal;
+    }
+
+    .filtering-form_content-wrapper {
+        min-width: 0px;
+        display: flex;
+        max-height: 800px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .radio {
+        width: 150px;
+    }
+
+    .filtering-form_fieldset {
+        width: 200px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .filter-button-wrapper {
+        justify-content: left;
+    }
+
+    .cart__item {
+        width: 343px;
+        height: 167px;
+    }
+
+    .pred__list {
+        color: rgb(0, 0, 0);
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 29px;
+        letter-spacing: 0%;
+        text-align: left;
+        padding-top: 32px;
+    }
+
+    .cart__name-box {
+        display: none;
+    }
+
+    .Korzina {
+        width: 375px;
+    }
+
+    .korzina__img {
+        display: none;
+    }
+
+    .cart-foot {
+        display: flex;
+        gap: 14px;
+        padding-top: 32px;
+    }
+
+    .cart__name-box {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cart-knopka1 {
+        box-sizing: border-box;
+        border-radius: 50px;
+        width: 166px;
+        height: 40px;
+        box-sizing: border-box;
+        border: 1px solid rgb white;
+        color: rgb(0, 0, 0);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        background-color: #ffffff;
+    }
+
+    .cart-knopka2 {
+        box-sizing: border-box;
+        border-radius: 50px;
+        width: 190px;
+        height: 40px;
+        box-sizing: border-box;
+        border: 1px solid rgb white;
+        color: white;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        background-color: black;
+
+    }
+
+    .cart__img {
+        display: none;
+    }
+
+    .cart__item {
+        padding-bottom: 24px;
+    }
+
+    .title {
+        font-size: 48px;
+        line-height: 59px;
+        text-align: center;
+        width: 350px;
+    }
+
+    .title__list {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .title__all {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title__link {
+        font-size: 14px;
+    }
+
+    .heading {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 29px;
+    }
+
+    .for {
+        grid-template-columns: repeat(4, 1fr);
+
+        &__item {
+            grid-column: 1 / -1;
+            height: 375px;
+            font-size: 28px;
+            line-height: 34px;
+
+
+
+            &_big {
+                height: 244px;
+            }
+
+        }
+    }
+
+
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 100px;
+        width: 375px;
+    }
+
+    .footer__logo {
+        display: none;
+    }
+
+    .footer-content {
+        display: flex;
+        gap: 100px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .obertka {
+        display: flex;
+        gap: 12px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-align: left;
+        justify-content: space-between;
+        align-items: flex;
+        padding-left: 10px;
+    }
+}

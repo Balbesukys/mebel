@@ -1,0 +1,7 @@
+@media (max-width: 1024px) {
+  .allcata {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}/*# sourceMappingURL=planshcatal.css.map */
